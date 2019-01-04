@@ -1,0 +1,118 @@
+{
+    "iterations": 5,
+    "mouseover_classes": [],
+    "timer": {
+        "duration": 100000,
+        "reset_duration": 300
+    },
+    "transition_behavior": {
+        "cover_between": true,
+        "cycle_time": 2000,
+        "duration": 200,
+        "css": {
+            "transform": "scale(1.2)",
+            "filter": "grayscale(80%)"
+        }
+    },
+    "repeat_behavior": {
+        "triggers": {
+            "wrong_answer": true,
+            "timeout": true
+        },
+        "rearrange": true,
+        "continue_at": 2
+    },
+    "racks": [
+        {
+            "name": "bar",
+            "shelves": [
+                {
+                    "name": "shelf_A",
+                    "background": "supermarket",
+                    "products": [
+                        {
+                            "name": "Budweiser",
+                            "path": "https://toosuite-public-resources.s3-eu-west-1.amazonaws.com/Diageo%20-%20Guinness%20Draught%20in%20a%20Can/GB/Competitor_Stim/multi_Budweiser.png"
+                        },
+                        {
+                            "name": "Carlsberg",
+                            "path": "https://toosuite-public-resources.s3-eu-west-1.amazonaws.com/Diageo%20-%20Guinness%20Draught%20in%20a%20Can/GB/Competitor_Stim/multi_Carlsberg.png"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "foo",
+            "shelves": [
+                {
+                    "name": "shelf_A",
+                    "background": "supermarket",
+                    "products": [
+                        {
+                            "name": "Corona",
+                            "path": "https://toosuite-public-resources.s3-eu-west-1.amazonaws.com/Diageo%20-%20Guinness%20Draught%20in%20a%20Can/GB/Competitor_Stim/multi_Corona.png"
+                        },
+                        {
+                            "name": "Heineken",
+                            "path": "https://toosuite-public-resources.s3-eu-west-1.amazonaws.com/Diageo%20-%20Guinness%20Draught%20in%20a%20Can/GB/Competitor_Stim/multi_Heineken.png"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "baz",
+            "shelves": [
+                {
+                    "name": "shelf_A",
+                    "background": "supermarket",
+                    "products": [
+                        {
+                            "name": "Guinness",
+                            "path": "https://toosuite-public-resources.s3-eu-west-1.amazonaws.com/Diageo%20-%20Guinness%20Draught%20in%20a%20Can/GB/Competitor_Stim/multi_Guinness.png"
+                        },  
+                        {
+                            "name": "Peroni",
+                            "path": "https://toosuite-public-resources.s3-eu-west-1.amazonaws.com/Diageo%20-%20Guinness%20Draught%20in%20a%20Can/GB/Competitor_Stim/multi_Peroni.png"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "layout": [
+        {
+            "name": "supermarket",
+            "products": [
+                {
+                    "name": "Corona",
+                    "path": "https://toosuite-public-resources.s3-eu-west-1.amazonaws.com/Diageo%20-%20Guinness%20Draught%20in%20a%20Can/GB/Competitor_Stim/multi_Corona.png"
+                },
+                {
+                    "name": "Heineken",
+                    "path": "https://toosuite-public-resources.s3-eu-west-1.amazonaws.com/Diageo%20-%20Guinness%20Draught%20in%20a%20Can/GB/Competitor_Stim/multi_Heineken.png"
+                }
+            ]
+        },
+        {
+            "name": "supermarket"
+        }
+    ],
+    "language_options": {
+        "screens": {
+            "pause": {
+                "message": "Test paused",
+                "continue_button": "Continue"
+            },
+            "intro": {
+                "message": "Example bulky/large products",
+                "continue_button": "Start"
+            }
+        },
+        "title": {
+            "header": "Visual search",
+            "message": "Click the requested image"
+        }
+    }
+}

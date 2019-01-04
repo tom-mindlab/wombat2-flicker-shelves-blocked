@@ -1,0 +1,117 @@
+{
+    "iterations": 10,
+    "mouseover_classes": [
+        "highlight"
+    ],
+    "timer": {
+        "duration": 20000,
+        "reset_duration": 300
+    },
+    "repeat_behavior": {
+        "triggers": {
+            "wrong_answer": true,
+            "timeout": true
+        },
+        "rearrange": true,
+        "new_target": true,
+        "continue_at": 0
+    },
+    "transition_behavior": {
+        "cover_between": true,
+        "cycle_time": 500,
+        "duration": 100,
+        "css": {
+            "transform": "rotateX(180deg)"
+        }
+    },
+    "product_classes": [
+        {
+            "name": "absolut_",
+            "display_name": "Absolut",
+            "path": "https://toosuite-public-resources.s3.amazonaws.com/Diageo%20-%20Smirnoff%20Impact%202/Resizes/Absolut.png",
+            "counts": {
+                "min": 3,
+                "max": 5
+            }
+        },
+        {
+            "name": "new_amsterdam_",
+            "display_name": "new_amsterdam",
+            "path": "https://toosuite-public-resources.s3.amazonaws.com/Diageo%20-%20Smirnoff%20Impact%202/Resizes/KetelOne.png",
+            "counts": {
+                "min": 3,
+                "max": 5
+            }
+        },
+        {
+            "name": "skyy_",
+            "display_name": "Skyy",
+            "path": "https://toosuite-public-resources.s3.amazonaws.com/Diageo%20-%20Smirnoff%20Impact%202/Resizes/RussianStandard.png",
+            "counts": {
+                "min": 3,
+                "max": 5
+            }
+        },
+        {
+            "name": "pinnacle_",
+            "display_name": "Pinnacle",
+            "path": "https://toosuite-public-resources.s3.amazonaws.com/Diageo%20-%20Smirnoff%20Impact%202/Resizes/SmirnoffCURRENT.png",
+            "counts": {
+                "min": 3,
+                "max": 5
+            }
+        },
+        {
+            "name": "stoli_",
+            "display_name": "Stoli",
+            "path": "https://toosuite-public-resources.s3.amazonaws.com/Diageo%20-%20Smirnoff%20Impact%202/Resizes/Stoli.png",
+            "counts": {
+                "min": 3,
+                "max": 5
+            }
+        },
+        {
+            "name": "finlandia-bold",
+            "display_name": "Finlandia",
+            "path": "https://toosuite-public-resources.s3.amazonaws.com/Diageo%20-%20Smirnoff%20Impact%202/Resizes/Finlandia.png",
+            "counts": {
+                "min": 3,
+                "max": 5
+            }
+        },
+        {
+            "name": "grey_goose",
+            "display_name": "Grey Goose",
+            "path": "https://toosuite-public-resources.s3.amazonaws.com/Diageo%20-%20Smirnoff%20Impact%202/Resizes/GreyGoose.png",
+            "counts": {
+                "min": 3,
+                "max": 5
+            }
+        }
+    ],
+    "layout": [
+        {
+            "name": "supermarket"
+        },
+        {
+            "name": "supermarket"
+        }
+    ],
+    "language_options": {
+        "screens": {
+            "pause": {
+                "message": "Test paused",
+                "continue_button": "Continue"
+            },
+            "intro": {
+                "message": "Flicker Shelves",
+                "continue_button": "Start"
+            }
+        },
+        "title": {
+            "header": "Flicker",
+            "message": "Click the flashing image"
+        },
+        "request_text": "Please click the upside-down product"
+    }
+}

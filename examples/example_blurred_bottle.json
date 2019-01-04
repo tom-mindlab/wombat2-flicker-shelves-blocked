@@ -1,0 +1,78 @@
+{
+    "language": "en",
+    "iterations": 5,
+    "mouseover_classes": [
+        ""
+      ],
+    "timer": {
+        "duration": 9000,
+        "reset_duration": 300
+    },
+    "repeat_behavior": {
+        "triggers": {
+            "wrong_answer": true,
+            "timeout": true
+        },
+        "rearrange": true,
+        "new_target": false,
+        "continue_at": 1
+    },
+    "transition_behavior": {
+        "cover_between": true,
+        "cycle_time": 500,
+        "duration": 100,
+        "css": {
+            "filter": "brightness(1.2) blur(2px)"
+        }
+    },
+        "product_classes": [
+            {
+                "name": "img_1",
+                "path": "https://toosuite-public-resources.s3-eu-west-1.amazonaws.com/Karl%20Test/Emma/jwgolden18_bottle_ex_base.png",
+                "counts": {
+                  "min": 1,
+                  "max": 3
+                }
+              },
+              {
+                "name": "img_2",
+                "path": "https://toosuite-public-resources.s3-eu-west-1.amazonaws.com/Karl%20Test/Emma/jwgolden18_bottle_ex_base.png",
+                "counts": {
+                  "min": 1,
+                  "max": 6
+                }
+              },
+              {
+                "name": "img_3",
+                "path": "https://toosuite-public-resources.s3-eu-west-1.amazonaws.com/Karl%20Test/Emma/jwgolden18_bottle_ex_base.png",
+                "counts": {
+                  "min": 2,
+                  "max": 5
+                }
+        }],
+        "layout": [
+            {
+              "name": "supermarket"
+            },
+            {
+              "name": "supermarket"
+            }
+          ],
+          "language_options": {
+            "screens": {
+              "pause": {
+                "message": "Test paused. Click 'Resume' to continue.",
+                "continue_button": "Resume"
+              },
+              "intro": {
+                "message": "Thank you.<br/>For the next test, you will always see a shelf image with a number of different products displayed. We will ask you to find specific products. Please click on the specified product as quickly as possible.<br>",
+                "continue_button": "Begin"
+              }
+            },
+            "title": {
+              "header": "Visual Search",
+              "message": "Please find and click on the changing product"
+            }
+
+    }
+}

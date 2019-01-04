@@ -1,0 +1,36 @@
+{
+  "name": "wombat2-flicker-shelves-blocked",
+  "version": "1.0.0",
+  "description": "standout for shelves",
+  "main": "main.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/themindlab/wombat2-flicker-shelves-blocked.git"
+  },
+  "keywords": [
+    "standout",
+    "shelves",
+    "flicker"
+  ],
+  "author": "Thomas Fear",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/themindlab/wombat2-flicker-shelves-blocked/issues"
+  },
+  "homepage": "https://github.com/themindlab/wombat2-flicker-shelves-blocked#readme",
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "lodash.clonedeep": "^4.5.0",
+    "shelf-rack": "git+ssh://git@github.com/themindlab/shelf-rack.git",
+    "wombat1-controls": "git+ssh://git@github.com/themindlab/wombat1-controls.git",
+    "wombat1-style": "git+ssh://git@github.com/themindlab/wombat1-style.git",
+    "wombat2-common": "git+ssh://git@github.com/themindlab/wombat2-common.git",
+    "wombat2-controls": "git+ssh://git@github.com/themindlab/wombat2-controls.git#0.0.1"
+  }
+}
